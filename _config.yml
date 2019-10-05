@@ -1,10 +1,10 @@
-title: Turbow Farms - Fresh Cut Flowers
+title: Turbow Farms
 baseurl: /
 permalink: '/:title/'
 palette: blue
 header:
   has_nav: true
-  logo_img: /images/t_edited.webp
+  logo_img: /images/logo.webp
   menu:
     actions:
       - label: Sign Up
@@ -19,7 +19,7 @@ footer:
     - new_window: true
       text: Made with Stackbit
       url: 'https://www.stackbit.com'
-  logo_img: /images/t_edited.webp
+  logo_img: /images/logo.webp
   nav_title: Company
   social_title: Community
   subscribe_content: Stay up to date with our latest developments.
