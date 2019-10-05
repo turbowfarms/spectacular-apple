@@ -1,61 +1,55 @@
 ---
 title: Home
 sections:
-  - type: heroblock
-    section_id: hero
-    title: This Is A Big Hero Headline
+  - actions:
+      - label: Learn More
+        url: /features
     component: hero_block.html
     content: >-
       Azimuth is the perfect theme for developers, designers and entrepreneurs
       who need a sleek, modern SaaS site. 
-    image: images/hero.png
-    actions:
-      - label: Learn More
-        url: /features
-  - type: featuresblock
-    section_id: features
-    title: Features
+    image: /images/hero.webp
+    section_id: hero
+    title: This Is A Big Hero Headline
+    type: heroblock
+  - bg: gray
     component: features_block.html
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
-    bg: gray
     featureslist:
-      - title: The Best Feature of Your Services
+      - actions:
+          - label: Learn More
+            url: /features
         content: >-
           Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
           aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
           consequat ex.
         image: images/feature1.png
-        actions:
+        title: The Best Feature of Your Services
+      - actions:
           - label: Learn More
             url: /features
-      - title: Awesome Feature of Your Services
         content: >-
           Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
           sapien interdum luctus. Cras rhoncus condimentum metus sit amet
           auctor.
         image: images/feature2.png
-        actions:
+        title: Awesome Feature of Your Services
+      - actions:
           - label: Learn More
             url: /features
-      - title: Cool Feature of Your Services
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
           amet nec urna.
         image: images/feature3.png
-        actions:
-          - label: Learn More
-            url: /features
-  - type: reviewsblock
-    section_id: reviews
-    title: Testimonials
-    component: reviews_block.html
+        title: Cool Feature of Your Services
+    section_id: features
     subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales. 
-    bg: white
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
+      quis lorem malesuada luctus.
+    title: Features
+    type: featuresblock
+  - bg: white
+    component: reviews_block.html
     reviews:
       - author: John Doe
         avatar: images/review1.jpg
@@ -73,22 +67,29 @@ sections:
         content: >-
           Integer consectetur purus neque, ac porttitor enim convallis vitae.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - type: ctablock
-    section_id: call-to-action
-    title: This Is Call To Action Block!
-    component: cta_block.html
-    subtitle: This is an optional description for the call to action block.
-    actions:
+    section_id: reviews
+    subtitle: >-
+      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
+      semper libero id sodales. 
+    title: Testimonials
+    type: reviewsblock
+  - actions:
       - label: Get Started
         url: /signup
-  - type: postsblock
+    component: cta_block.html
+    section_id: call-to-action
+    subtitle: This is an optional description for the call to action block.
+    title: This Is Call To Action Block!
+    type: ctablock
+  - bg: gray
+    component: posts_block.html
     section_id: recent-posts
     title: Latest Posts
-    component: posts_block.html
-    bg: gray
+    type: postsblock
 menus:
   main:
     title: Home
     weight: 1
 layout: home
 ---
+
