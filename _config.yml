@@ -11,7 +11,7 @@ header:
         url: /signup
   title: Turbow Farms
 footer:
-  content: '&copy; Stackbit. All rights reserved.'
+  content: '&copy; Turbow Farms. All rights reserved.'
   has_nav: true
   has_social: true
   has_subscribe: true
@@ -24,7 +24,7 @@ footer:
   social_title: Community
   subscribe_content: Stay up to date with our latest developments.
   subscribe_title: Subscribe
-  tagline: Fresh Cut Flowers
+  tagline: 'Turbow Farms - 23263 Mora Glen Drive, Los Altos, CA 94024'
 sass:
   indentWidth: 4
   precision: 10
